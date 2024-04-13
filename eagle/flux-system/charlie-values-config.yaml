@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: charlie-values-config
+  namespace: flux-system
+data:
+  charlie: |
+    charlie:
+      version: 6.6.0

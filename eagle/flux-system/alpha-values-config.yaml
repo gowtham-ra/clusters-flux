@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: alpha-values-config
+  namespace: flux-system
+data:
+  alpha: |
+    alpha:
+      values:
+        replicaCount: 2
+        version: "6.6.1"
+        resources:
+          requests:
+            cpu: "1m"
+            memory: "21Mi"

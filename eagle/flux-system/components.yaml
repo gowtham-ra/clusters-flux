@@ -31,5 +31,14 @@ spec:
     departmentCode: 275
   valuesFrom:
     - kind: ConfigMap
-      name: components-values-config
-      valuesKey: values
+      name: alpha-values-config
+      valuesKey: alpha
+    - kind: ConfigMap
+      name: bravo-values-config
+      valuesKey: bravo
+    - kind: ConfigMap
+      name: charlie-values-config
+      valuesKey: charlie
+    - kind: ConfigMap
+      name: keda-values-config
+      valuesKey: keda
